@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+out/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS specific
+desktop.ini
+
+# Environment files
+.env
+
+# VSCode settings
+.vscode/
+
+# Electron specific cache
+electron-builder.yaml

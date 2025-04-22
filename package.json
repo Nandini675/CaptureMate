@@ -1,0 +1,38 @@
+{
+
+  "description": "A minimal Electron app to capture and manage screenshots.",
+"author": "Nandini Sharma",
+
+  "name": "capturemate",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "dependencies": {
+    "screenshot-desktop": "^1.14.0"
+  },
+  "devDependencies": {
+    "electron": "^35.2.0",
+    "electron-builder": "^26.0.12"
+  },
+
+"build": {
+  "appId": "com.capturemate.app",
+  "productName": "CaptureMate",
+  "files": [
+    "**/*"
+  ],
+  "directories": {
+    "buildResources": "assets"
+  },
+  "win": {
+    "target": "nsis",
+    "icon": "assets/icon.ico"
+  }
+
+}
+}
+
+
