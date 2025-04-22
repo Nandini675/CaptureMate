@@ -41,10 +41,25 @@ npm install
 npm start
 📦 Build Desktop App (Windows)
 npm run dist
-## 📷 Screenshot Preview
 
-**Login Screen:**
+📁 Folder Structure
 
-![login screen](https://raw.githubusercontent.com/Nandini675/CaptureMate/main/images/login.png)
+
+CaptureMate/
+│
+├── assets/
+│   └── icon.png
+├── renderer/
+│   ├── index.html
+│   ├── renderer.js
+│   └── style.css
+├── main.js
+├── preload.js
+├── package.json
+└── dist/ 
+
+
+
+
 
 
