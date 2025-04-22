@@ -41,6 +41,10 @@ npm install
 npm start
 📦 Build Desktop App (Windows)
 npm run dist
-📸 Screenshot Preview
-login screen:
-![login screen](images/login.png)
+## 📷 Screenshot Preview
+
+**Login Screen:**
+
+![login screen](https://raw.githubusercontent.com/Nandini675/CaptureMate/main/images/login.png)
+
+
